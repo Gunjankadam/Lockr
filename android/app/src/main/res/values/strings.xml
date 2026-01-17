@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Lockr</string>
+    <string name="title_activity_main">Lockr</string>
+    <string name="package_name">app.lovable.lockr</string>
+    <string name="custom_url_scheme">app.lovable.lockr</string>
+</resources>
