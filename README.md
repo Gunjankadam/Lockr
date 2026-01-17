@@ -114,8 +114,8 @@ npx cap run android
 ---
 ## Screenshots
 <p align="center">
-  <img src="https://github.com/Gunjankadam/Lockr/blob/main/1.png" height="400" >
-  <img src="https://github.com/Gunjankadam/Lockr/blob/main/2.png" height="400" >
+  <img src="https://github.com/Gunjankadam/Lockr/blob/main/1.png" height="600" >
+  <img src="https://github.com/Gunjankadam/Lockr/blob/main/2.png" height="600" >
 </p>
 
 ---
