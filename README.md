@@ -1,10 +1,11 @@
-# 🔐 Lockr: Premium Secure Vault & Password Manager
+# Lockr 
+Premium Secure Vault & Password Manager
 
 Lockr is a military-grade, cross-platform security application designed to provide a "Secrets in your Pocket" experience. Built with a focus on high-fidelity UI/UX and uncompromising security, Lockr protects your digital life using a multi-layered authentication architecture.
 
 ---
 
-## 🌟 Vision & Design Philosophy
+##  Vision & Design Philosophy
 
 Lockr isn't just a utility; it's a premium experience. 
 - **Aesthetics First**: Utilizing Glassmorphism, fluid Framer Motion animations, and a curated "Zinc & Electric Blue" dark mode theme.
@@ -13,7 +14,7 @@ Lockr isn't just a utility; it's a premium experience.
 
 ---
 
-## 🏗️ Technical Architecture
+##  Technical Architecture
 
 ### 1. The Security Stack (Frontend to Backend)
 - **Identity Layer**: JWT-based authentication via Email OTP.
@@ -28,25 +29,25 @@ Lockr isn't just a utility; it's a premium experience.
 
 ---
 
-## ✨ Features in Detail
+##  Features in Detail
 
-### 📱 Mobile Excellence
+### Mobile Excellence
 - **Hardware Biometrics**: Integrated Fingerprint/FaceID for instant vault unlocking.
 - **Native Dialogs**: Using `@capacitor/dialog` for system-level enrollment prompts.
 - **Safe Area Support**: Full compatibility with dynamic island and bottom gesture bars.
 
-### 🔑 Vault Management
+### Vault Management
 - **Custom Categories**: Group your secrets into Banking, Social, Personal, etc., with dynamic icon sets.
 - **Advanced Forms**: Store more than just passwords; add custom encrypted fields for security questions, PIN codes, or backup keys.
 - **Security Health**: Real-time analysis of your password entropy and reuse across your vault.
 
-### ⚙️ Automation & Control
+### Automation & Control
 - **Intelligent Auto-Lock**: configurable timers (5m, 10m, 30m) that trigger vault locking on app background or inactivity.
 - **Session Persistence**: Smart local-cache logic that remembers your onboarding status even after device restarts, preventing annoying redundant setups.
 
 ---
 
-## 🛠️ Development & Deployment
+## Development & Deployment
 
 ### Environment Configuration
 The project uses a split-environment configuration:
@@ -95,24 +96,28 @@ npx cap run android
 
 ---
 
-## �️ Implementation Roadmap
+## Authentication and Encryption Implemented
 
 - [x] Email OTP Authentication
 - [x] Biometric Unlock Integration
 - [x] AES-256 Data Encryption
 - [x] Security Health Dashboard
-- [ ] Multi-Factor Authentication (MFA)
-- [ ] Secure Password Sharing
-- [ ] Browser Extension Synchronization
+- [x] Two-way(client, server) encryption (zero knowledge)
 
 ---
+## Download the application from here
 
-## 🛡️ Best Practices & Security Notes
+- Scan to download -
+---
+## Screenshots
+---
+
+## Best Practices
 - **JWT Lifespan**: Tokens are set to 7 days with automatic renewal on activity.
 - **Encryption Key**: For production, the `ENCRYPTION_KEY` should be rotated and stored in a secure Secret Manager (AWS Secrets Manager / Vercel Secrets).
-- **TLS**: Always serve the API over HTTPS to prevent MITM attacks on the OTP and JWT packets.
+- **TLS**: Always serves the API over HTTPS to prevent MITM attacks on the OTP and JWT packets.
 
 ---
 
 ## 📄 License
-Licensed under the **MIT License**. Built with ❤️ for the security community.
+Licensed under the **MIT License**.
