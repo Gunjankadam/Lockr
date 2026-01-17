@@ -106,13 +106,18 @@ npx cap run android
 
 ---
 ## Download the application from here
- ![Image 3](https://github.com/Gunjankadam/SocialAnalyser/blob/main/image1.png)
-  Scan to download 
+<p align="center">
+  <img src="https://github.com/Gunjankadam/Lockr/blob/main/QR%20Code.png" alt="Scan to download" width="450"><br>
+  <em>Scan to download</em>
+</p>
+
 ---
 ## Screenshots
+<p align="center">
+  <img src="https://github.com/Gunjankadam/Lockr/blob/main/1.png" width="280" height="560">
+  <img src="https://github.com/Gunjankadam/Lockr/blob/main/2.png" width="280" height="560">
+</p>
 
-![Image 3](https://github.com/Gunjankadam/SocialAnalyser/blob/main/image1.png)
-![Image 3](https://github.com/Gunjankadam/SocialAnalyser/blob/main/image1.png)
 ---
 
 ## Best Practices
