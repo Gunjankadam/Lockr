@@ -106,10 +106,13 @@ npx cap run android
 
 ---
 ## Download the application from here
-
-- Scan to download -
+ ![Image 3](https://github.com/Gunjankadam/SocialAnalyser/blob/main/image1.png)
+  Scan to download 
 ---
 ## Screenshots
+
+![Image 3](https://github.com/Gunjankadam/SocialAnalyser/blob/main/image1.png)
+![Image 3](https://github.com/Gunjankadam/SocialAnalyser/blob/main/image1.png)
 ---
 
 ## Best Practices
