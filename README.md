@@ -1,6 +1,6 @@
 # 🔐 Lockr: Premium Secure Vault & Password Manager
 
-Lockr is a military-grade, cross-platform security application designed to provide a "Bank in your Pocket" experience. Built with a focus on high-fidelity UI/UX and uncompromising security, Lockr protects your digital life using a multi-layered authentication architecture.
+Lockr is a military-grade, cross-platform security application designed to provide a "Secrets in your Pocket" experience. Built with a focus on high-fidelity UI/UX and uncompromising security, Lockr protects your digital life using a multi-layered authentication architecture.
 
 ---
 
